@@ -52,10 +52,3 @@ repos:
         language: rust
         files: \.rs$
         pass_filenames: false
-      - id: ci-sh
-        name: ci sh
-        description: replace variables in ci.sh
-        entry: bash -c './ci_win.ps1'
-        language: shell
-        files: ci_win.ps1
-        pass_filenames: false
